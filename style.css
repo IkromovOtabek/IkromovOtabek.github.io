@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #c4c0c0c0;
+    text-align: center;
+    padding: 50px;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: #0056b3;
+}
+#qr-code{
+    margin-top: 20px;
+}
+#qr-code img{
+    max-width: 100%;
+    height: auto;
+}
+#qrCanvas{
+    width: 200px;
+    height: 200px;
+}
+ /* Telefon PNG rasmi */
+.image-container img.base-image {
+    display: block;
+    max-width: 300px; /* kerakli o'lcham */
+}
+.image-container .base-image{
+    height: auto;
+}
+#qrCodeImage{
+    padding-bottom: 20px;
+}
+  /* QR kod rasmi ustida */
+.image-container .base-image  #qrCodeImage {
+    position: absolute;
+    top: 10px; /* yuqoridan masofa */
+    right: 10px; /* o'ngdan masofa */
+    width: 100px; /* QR kod o'lchami */
+    height: 100px;
+    border: 2px solid #000; /* ixtiyoriy, chegara uchun */
+    background: white; /* orqa fon oq bo‘lishi uchun */
+}
