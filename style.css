@@ -69,8 +69,8 @@ button:hover{
     border: 2px solid #000; /* ixtiyoriy, chegara uchun */
     background: white; /* orqa fon oq bo‘lishi uchun */
 }
-.icon a i{
-    font-size: 30px;
+#icon a i{
+    font-size: 50px;
     padding: 15px;
     color: #0425f8;
 }
